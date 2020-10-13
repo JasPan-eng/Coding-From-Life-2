@@ -1,0 +1,126 @@
+/*
+  Coding from Life – Sketch 2: fluid layout
+
+  For sketch 2 you'll be positioning elements relative to a fluid container. This
+  means you'll need to use percentages when positioning and sizingelements within
+  your frame.
+*/
+
+
+body {
+  background-color: black;
+}
+
+.frame {
+  width: 95vw;
+  height: 57vw;
+  background: white;
+  margin: 2.5vw auto;
+  position: relative;
+}
+
+/* Your CSS goes here */
+
+.book-top {
+  width: 130px;
+      height: 130px;
+      background: orange;
+      border-radius: 50%;
+      position: absolute;
+      bottom: 200px;
+      right: 300px;
+}
+
+
+.book-middle {
+    width: 150px;
+      height: 150px;
+      background: brown;
+      border-radius: 50%;
+      position: absolute;
+      bottom: 200px;
+      right: 600px;
+}
+
+
+.candle2 {
+  width: 50px;
+      height: 150px;
+      background: gold;
+      border-radius: 50px / 100px;
+      position: absolute;
+      bottom: 300px;
+      right: 600px;
+    }
+
+
+.candle {
+  width: 50px;
+      height: 150px;
+      background: gold;
+      border-radius: 50px / 100px;
+      position: absolute;
+      bottom: 300px;
+      right: 490px;
+    }
+
+}
+
+.flower3 {
+      width: 50px;
+      height: 55px;
+      background: red;
+      border-radius: 50px / 100px;
+      position: absolute;
+      bottom: 400px;
+      right: 540px;
+    }
+
+.flower2 {
+      width: 10px;
+      height: 150px;
+      background: green;
+      border-radius: 50px / 100px;
+      position: absolute;
+      bottom: 300px;
+      right: 540px;
+    }
+
+.flower {
+      width: 10px;
+      height: 150px;
+      background: green;
+      border-radius: 50px / 100px;
+      position: absolute;
+      bottom: 300px;
+      right: 550px;
+    }
+
+.vase {
+      width: 100px;
+      height: 200px;
+      background: black;
+      border-radius: 50px / 100px;
+      position: absolute;
+      bottom: 200px;
+      right: 500px;
+    }
+
+.table {
+   width: 400px;
+   height: 200px;
+   background-color: #b3b3b3;
+   position: absolute;
+   bottom: 0px;
+   left: 0px;
+   }
+   
+ .table2 {
+   width: 400px;
+   height: 200px;
+   background-color: #cccccc;
+   position: absolute;
+   bottom: 0px;
+   left: 400px;
+   
+ }
